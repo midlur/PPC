@@ -24,6 +24,7 @@ public class Main {
             Collections.reverse(employees);
 
             employees.forEach((s)->System.out.println(s));
+            System.out.println("Employee with lowest salary is " + employees.get(0));
         }
         catch(IOException e){
             e.printStackTrace();
